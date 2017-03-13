@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package org.dimigo.basic;
 
 /**
