@@ -1,5 +1,16 @@
 package org.dimigo.basic;
-
+/**
+ * <pre>
+ * org.dimigo.basic
+ *   |_ Loop.java
+ *
+ * 1. 개요 : 
+ * 2. 작성일 : 2017. 3. 16.
+ * <pre>
+ * 
+ * @author 허창준
+ * @version : 1.0
+ */
 import java.util.Random;
 import java.util.Scanner;
 
