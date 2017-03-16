@@ -28,5 +28,4 @@ public class Operator {
 		System.out.println("점포 수 : " + String.format("%,d", market) + "개" + "\n\n");
 		System.out.println("연간 인건비 : " + String.format("%,d", year) +"원");		
 	}
-
 }
