@@ -1,4 +1,5 @@
 package org.dimigo.basic;
+
 /**
  * <pre>
  * org.dimigo.basic
@@ -24,7 +25,7 @@ public class Loop {
 		String[] job = { "마법사", "영주", "기사", "농민" };
 		Scanner scanner = new Scanner(System.in);
 		int r;
-		
+
 		do {
 			System.out.println("--------------------");
 			System.out.println("<<게임 메뉴>>");
@@ -54,10 +55,11 @@ public class Loop {
 				System.out.printf("%s(으)로 설정되었습니다.\n", job[r]);
 			}
 				break;
-			default : System.out.println("없는 메뉴 입니다!!");
+			default:
+				System.out.println("없는 메뉴 입니다!!");
 			}
 		} while (choice != 9);
-		System.out.println("이제 공부하세요~");			
+		System.out.println("이제 공부하세요~");
 		scanner.close();
 	}
 }
