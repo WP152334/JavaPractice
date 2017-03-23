@@ -1,5 +1,17 @@
 package org.dimigo.oop;
 
+/**
+ * <pre>
+ * org.dimigo.basic |_ PrimitiveDataType.java
+ *
+ * 1. 개요 : 2. 작성일 : 2017. 3. 23.
+ * 
+ * <pre>
+ * 
+ * @author 허창준
+ * @version : 1.0
+ */
+
 public class Car {
 
 	private String company = "현대자동차";
