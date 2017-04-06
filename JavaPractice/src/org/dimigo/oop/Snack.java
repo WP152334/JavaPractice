@@ -15,7 +15,7 @@ public class Snack {
 		this.name = name;
 		this.company = company;
 		this.price = price;
-		this.number = number;
+		this.number = number; 
 	}
 
 	public String toString() {

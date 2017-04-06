@@ -9,7 +9,7 @@ public class SnackTest {
 		for (Snack snack : snackArr) {
 			System.out.println(snack);
 			sum += snack.calcPrice();
-		}
+		} 
 		System.out.println("총 구매 금액 : " + sum + "원");
 	}
 }
