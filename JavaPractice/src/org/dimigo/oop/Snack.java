@@ -15,11 +15,12 @@ public class Snack {
 		this.name = name;
 		this.company = company;
 		this.price = price;
-		this.number = number; 
+		this.number = number;
 	}
 
 	public String toString() {
-		return "이름 : " + name + "\n제조사 : " + company + "\n가격 : " + String.format("%,d", price) + "원\n" + "개수 : " + number + "개\n";
+		return "이름 : " + name + "\n제조사 : " + company + "\n가격 : " + String.format("%,d", price) + "원\n" + "개수 : "
+				+ number + "개\n";
 	}
 
 	public int calcPrice() {
