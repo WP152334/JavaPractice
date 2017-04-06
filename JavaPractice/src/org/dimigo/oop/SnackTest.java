@@ -10,6 +10,6 @@ public class SnackTest {
 			System.out.println(snack);
 			sum += snack.calcPrice(); 
 		} 
-		System.out.println("총 구매 금액 : " + sum + "원");
+		System.out.printf("총 구매 금액  : %,d원", sum);
 	}
 }

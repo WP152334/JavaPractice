@@ -36,7 +36,7 @@ public class CarTest2 {
 		System.out.printf("가격 : " + "%,d" + "원\n\n", car2.getPrice());
 
 		Car2 car3 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
-		// 삼성자동차
+		
 
 		System.out.println("제조사명 : " + car3.getCompany());
 		System.out.println("모델명 : " + car3.getModel());
@@ -44,5 +44,4 @@ public class CarTest2 {
 		System.out.println("최대속도 : " + car3.getMaxSpeed() + "km");
 		System.out.printf("가격 : " + "%,d" + "원\n", car3.getPrice());
 	}
-
 }
