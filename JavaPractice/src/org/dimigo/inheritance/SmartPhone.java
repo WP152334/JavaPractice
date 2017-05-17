@@ -28,8 +28,16 @@ public class SmartPhone {
 		System.out.println("로 결제합니다.");
 	}
 
-	public void useSpecialFunction(SmartPhone Phone) {
-		System.out.println("기능을 사용합니다.");
+	public void useSpecialFunction(SmartPhone phone) {
+		if(phone instanceof IPhone) {
+			// IPhone에만 있는 useAirDrop() 호출하기
+			IPhone iphone = (IPhone)phone;
+			iphone.useAirDrop();
+		} else if(phone instanceof Galaxy) {
+			// Galaxy에만 있는 useWirelessCharging() 호출하기
+			Galaxy galaxy = (Galaxy)phone;
+			galaxy.useWirelessCharging();
+		}
 	}
 
 	public String toString() {
