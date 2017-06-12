@@ -30,6 +30,6 @@ public class MelonChart {
 			System.out.println(list.indexOf(value) + 1 + ". " + value.getTitle() + " (" + value.getSinger() + ")");
 		}
 		System.out.println();
-	}
+	}//
 
 }
